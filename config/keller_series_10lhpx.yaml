@@ -1,0 +1,36 @@
+# @license BSD-3 https://opensource.org/licenses/BSD-3-Clause
+# Copyright (c) 2024, Institute of Automatic Control - RWTH Aachen University
+# Maximilian Nitsch (m.nitsch@irt.rwth-aachen.de)
+# All rights reserved.
+
+depth_pressure_sensor_driver:
+  component_settings:
+    name: "external_pressure_sensor_coarse" # (-)
+    type: "10LHPX" # (-)
+    vendor: "KELLER" # (-)
+    id: "AUV-GC-01-04" # (-)
+
+  serial_device_settings:
+    port: "/dev/ttyUSB5" # (-)
+    baud_rate: 115200 # (-)
+
+  modbus_device_settings:
+    modbus_device_address: 5 # (-)
+    response_timefix: 15.0 # (ms)
+    response_time_per_byte: 0.75 # (ms)
+    repeat_if_error: false # (-)
+
+  pressure_sensor_settings:
+    sample_time: 0.1 # (s)
+    pressure_noise_std: 1.0 # (Pa)
+    pressure_per_metre: 10110.8212387044 # (Pa/m)
+    pressure_bias: 0.0 # (Pa); used if enable_constant_pressure_bias
+    lever_arm_body_to_sensor: [0.0, 0.0, 0.0] # Lever arm between body and sensor frame (m)
+
+  enable_flags_settings:
+    enable_publish_pressure: true # (-)
+    enable_publish_depth: true # (-)
+    enable_publish_temperature: true # (-)
+    enable_publish_diagnostic: true # (-)
+    enable_constant_pressure_to_meter_conversion: true # (-)
+    enable_constant_pressure_bias: false # (-)
