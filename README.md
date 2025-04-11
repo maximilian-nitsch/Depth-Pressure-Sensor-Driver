@@ -1,6 +1,12 @@
 # IRT C++/ROS 2 External Pressure Sensor Driver
 
-[![License](https://img.shields.io/badge/license-BSD--3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Build](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/actions/workflows/ci.yaml/badge.svg)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/actions)
+[![License](https://img.shields.io/github/license/maximilian-nitsch/Depth-Pressure-Sensor-Driver.svg)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/maximilian-nitsch/Depth-Pressure-Sensor-Driver)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/commits/main)
+[![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)](https://index.ros.org/doc/ros2/Installation/Humble/)
+[![Release](https://img.shields.io/github/v/release/maximilian-nitsch/Depth-Pressure-Sensor-Driver)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/releases)
+[![Open Issues](https://img.shields.io/github/issues/maximilian-nitsch/Depth-Pressure-Sensor-Driver)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/issues)
+[![Contributors](https://img.shields.io/github/contributors/maximilian-nitsch/Depth-Pressure-Sensor-Driver)](https://github.com/maximilian-nitsch/Depth-Pressure-Sensor-Driver/graphs/contributors)
 
 <img src="./data/icon.png" alt="Icon" width="10%">
 
